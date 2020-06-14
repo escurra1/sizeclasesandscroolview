@@ -135,3 +135,5 @@ extension FirstViewController: FirstViewControllerProtocol {
 //First+UICollectionView
 //First+UITextField
 //en pocas palabras guiarse de directo, ya que ahi esta todo
+//se debe de trabajar bien
+//todo debe estar bien
