@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="roJ-OO-tUh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Liu-YQ-XHg">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -898,8 +898,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riA-ac-j5G" userLabel="ViewIn">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="930"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default" translatesAutoresizingMaskIntoConstraints="NO" id="STH-NC-ttD">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="STH-NC-ttD">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                                        <color key="backgroundColor" red="0.027450980390000001" green="0.15686274510000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="z9H-sC-Rke"/>
                                                         </constraints>
@@ -989,15 +990,26 @@
                                             <constraint firstAttribute="bottom" secondItem="riA-ac-j5G" secondAttribute="bottom" id="jzA-tb-hHO"/>
                                         </constraints>
                                     </scrollView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hID-xt-VKM">
+                                        <rect key="frame" x="30" y="30" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="0zZ-dk-Nl2"/>
+                                            <constraint firstAttribute="width" constant="40" id="PZ9-zy-MtT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="riA-ac-j5G" firstAttribute="height" secondItem="l3d-BO-yuN" secondAttribute="height" priority="750" id="Dla-eL-RVb"/>
+                                    <constraint firstItem="hID-xt-VKM" firstAttribute="top" secondItem="l3d-BO-yuN" secondAttribute="top" constant="30" id="Msj-zn-QRB"/>
                                     <constraint firstItem="LfD-U4-rXk" firstAttribute="top" secondItem="l3d-BO-yuN" secondAttribute="top" id="PCK-Q3-OkT"/>
                                     <constraint firstAttribute="bottom" secondItem="LfD-U4-rXk" secondAttribute="bottom" id="X9g-fT-c9d"/>
                                     <constraint firstItem="LfD-U4-rXk" firstAttribute="leading" secondItem="l3d-BO-yuN" secondAttribute="leading" id="aV0-Qb-YO0"/>
                                     <constraint firstItem="riA-ac-j5G" firstAttribute="width" secondItem="l3d-BO-yuN" secondAttribute="width" id="doD-3X-Oxu"/>
                                     <constraint firstAttribute="trailing" secondItem="LfD-U4-rXk" secondAttribute="trailing" id="iYl-cF-Lsh"/>
+                                    <constraint firstItem="hID-xt-VKM" firstAttribute="leading" secondItem="l3d-BO-yuN" secondAttribute="leading" constant="30" id="mwg-NE-UlQ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1042,7 +1054,4 @@
             <point key="canvasLocation" x="2116" y="71.674876847290648"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Default" width="320" height="480"/>
-    </resources>
 </document>
