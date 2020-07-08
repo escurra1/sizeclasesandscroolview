@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02EEBE4106AF1960B234ED85 /* Pods_Practica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1828BD07A282ABB26F06207C /* Pods_Practica.framework */; };
 		61011F55248FFC5B00350907 /* KeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61011F54248FFC5B00350907 /* KeyBoardViewController.swift */; };
 		61011F57249001C100350907 /* KeyBoardViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61011F56249001C100350907 /* KeyBoardViewController2.swift */; };
+		61A6217924B6642900BE4B6F /* EjemploScroolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6217824B6642900BE4B6F /* EjemploScroolViewController.swift */; };
 		61EC148F2489BC5B00243472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC148E2489BC5B00243472 /* AppDelegate.swift */; };
 		61EC14912489BC5B00243472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC14902489BC5B00243472 /* SceneDelegate.swift */; };
 		61EC14932489BC5B00243472 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC14922489BC5B00243472 /* FirstViewController.swift */; };
@@ -24,6 +25,7 @@
 		335301C4F7FA3015E6D930F5 /* Pods-Practica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica.debug.xcconfig"; path = "Target Support Files/Pods-Practica/Pods-Practica.debug.xcconfig"; sourceTree = "<group>"; };
 		61011F54248FFC5B00350907 /* KeyBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardViewController.swift; sourceTree = "<group>"; };
 		61011F56249001C100350907 /* KeyBoardViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardViewController2.swift; sourceTree = "<group>"; };
+		61A6217824B6642900BE4B6F /* EjemploScroolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploScroolViewController.swift; sourceTree = "<group>"; };
 		61EC148B2489BC5B00243472 /* Practica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EC148E2489BC5B00243472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61EC14902489BC5B00243472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		61011F4B248FF1A000350907 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				61A6217724B6640D00BE4B6F /* Scrooll */,
 				61011F53248FF90600350907 /* Keyboard */,
 				61011F52248FF8F900350907 /* FirstExample */,
 			);
@@ -129,6 +132,14 @@
 			path = Keyboard;
 			sourceTree = "<group>";
 		};
+		61A6217724B6640D00BE4B6F /* Scrooll */ = {
+			isa = PBXGroup;
+			children = (
+				61A6217824B6642900BE4B6F /* EjemploScroolViewController.swift */,
+			);
+			path = Scrooll;
+			sourceTree = "<group>";
+		};
 		61EC14822489BC5B00243472 = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +177,6 @@
 				335301C4F7FA3015E6D930F5 /* Pods-Practica.debug.xcconfig */,
 				19DB2196028EF14A72A0E3F5 /* Pods-Practica.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -286,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61011F57249001C100350907 /* KeyBoardViewController2.swift in Sources */,
+				61A6217924B6642900BE4B6F /* EjemploScroolViewController.swift in Sources */,
 				61EC14932489BC5B00243472 /* FirstViewController.swift in Sources */,
 				61EC148F2489BC5B00243472 /* AppDelegate.swift in Sources */,
 				61EC14912489BC5B00243472 /* SceneDelegate.swift in Sources */,
